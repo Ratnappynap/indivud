@@ -588,12 +588,12 @@ gap: 10px;
     font-size: 14px;
     color:#4444446e;
 }
-.allrewie a{
-    
+.allrewie{
+   
     line-height: 1.5;
     color: #407014;
 }
-.allrewie a:hover{
+.allrewie:hover{
 
     color: #4BB45E;
 }
@@ -926,13 +926,19 @@ footer{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
-.main-footer{
+.podval{
     display: flex;
+ 
+}
+.main-footer{
+    flex-direction: column;
+    display: flex;
+    position: relative;
+
     color: #FFFFFF;
 }
 .body-footer{ 
-    margin-left: 70px;
+    margin-left: 90px;
     display: flex;
     gap: 140px;
 }
