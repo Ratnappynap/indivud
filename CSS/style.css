@@ -757,7 +757,7 @@ justify-self: center;
     font-size: 14px;
 }
 .subscribtion{
-    background:url(/bgsubscription.png);
+    background:url(bgsubscription.png);
     background-repeat: no-repeat;
     background-clip: padding-box;
     background-size: cover;
