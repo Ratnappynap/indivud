@@ -245,7 +245,7 @@ margin-top: -10px;
  
     height: 500px;
     
-    background: url(/IMG/bg1.png);
+    background: url("/IMG/bg1.png");
     background-position:center;
     background-clip: padding-box;
     background-size: cover;
@@ -308,7 +308,7 @@ color: #407014;
     -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
-        background: url("/IMG/arrow_down.svg") 96% / 12% no-repeat;
+        background: url("./IMG/arrow_down.svg") 96% / 12% no-repeat;
   margin: -2px;
 padding-left: 25px;
 padding-right: 52px;
