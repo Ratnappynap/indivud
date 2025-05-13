@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Боровинских П-17</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <header class="header1">
+<ul class="header1-ul">
+    <li class="header1-li"><a href="#">Каталог</a></li>
+    <li class="header1-li"><a href="#">О компании</a></li>
+    <li class="header1-li"><a href="#">Способы оплаты</a></li>
+    <li class="header1-li"><a href="#">Доставка</a></li>
+    <li class="header1-li"><a href="#">Отзывы</a></li>
+    <li class="header1-li"><a href="#">Дисконтные карты</a></li>
+    <li class="header1-li"><a href="#">Видео</a></li>
+    <li class="header1-li"><a href="#">Контакты</a></li>
+</ul>
+<ul class="log1-in">
+    <li class="log1-in-li">
+        <img src="IMG/user.svg" alt="user"> <a href="#">Войти</a>
+    </li>
+    <li class="log1-in-li">
+        <img src="IMG/sign-in.svg" alt="user"> <a href="#">Регистрация</a>
+    </li>
+</ul>
+        </header>
+    </div>
+<div class="container">
+        <header class="header2">
+            <div class="logo">
+                <img src="IMG/logo.svg" alt="logo"><br>
+                <p>сеть цветочных оптово-розничных центров</p>
+            </div>
+<ul class="phone">
+ <div class="left">
+    <li class="phone-li"><a href="#">+7 965 151 18 39</a></li>
+    <li class="phone-li"><a href="#">+7 916 122 18 98</a></li>
+ </div>
+<div class="right">
+    <li class="phone-li">
+        <img src="IMG/clock.svg" alt="clock">
+        Ждем вас с 8:00 до 22:00</li>
+    <li class="phone-li">
+        <img src="IMG/map-marker-alt.svg" alt="map">
+        <a href="#centr">Адреса цветочных центров</a></li>
+</div>
+</ul>
+
+<ul class="like-cart">
+    <li class="like">
+        <img src="IMG/heart.svg" alt="heart">
+         <a href="#">Избранное</a>
+    </li>
+    <li class="cart">
+<a href="#">
+    <img src="IMG/shopping-cart.svg" alt="cart"> 
+    0₽
+</a>
+    </li>
+</ul>
+<div class="container">
+    <nav class="nav-bar">
+      <div class="toggle-menu">
+        <div class="line line1"></div>
+        <div class="line line2"></div>
+        <div class="line line3"></div>
+      </div>
+      <ul class="nav-list">
+        <li class="nav-list-item"><a href="#boquet" class="nav-link">Каталог</a></li>
+        <li class="nav-list-item"><a href="#about" class="nav-link">О компании</a></li>
+        <li class="nav-list-item">
+            <a href="#centr" class="nav-link">Доставка</a>
+          </li>
+        <li class="nav-list-item">
+          <a href="#rewiew" class="nav-link">Отзывы</a>
+        </li>
+        <li class="nav-list-item"><a href="#subscribe" class="nav-link">Дисконтные карты</a></li>
+        <li class="nav-list-item">
+          <a href="#contacts" class="nav-link">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+        </header>
+</div>
+
+
+    <section class="header-announce">
+      <div class="container">
+        <ul class="announce-ul">
+            <li class="announce-li">
+                <a href="#boquet">Букеты</a>
+             </li>
+            <li class="announce-li">
+                <a href="#rose">Розы</a>
+            </li>
+            <li class="announce-li">
+                <a href="#">Цветы</a>
+            </li>
+            <li class="announce-li">
+                <a href="#">Горшечные растения</a>
+            </li>
+            <li class="announce-li">
+                <a href="#">Повод</a>
+            </li>
+            <li class="announce-li">
+                <a href="#">Подарки</a>
+            </li>
+            <li class="announce-li">
+                <a href="#sale">Акции</a>
+            </li>
+        </ul>
+      </div>
+    </section>
+
+
+ <section class="info">
+  <div class="container">
+    <div class="block">
+     <h1>Всегда в продаже более 100 готовых дизайнерских букетов</h1> 
+     <p>
+        <a href="#">Перейти в каталог</a> 
+        <img src="IMG/angle-right.svg" alt="right">
+     </p>  
+    </div>
+       
+   </div>
+ </section>
+
+
+  <section class="delivery">
+    <div class="container">
+<h2 class="delivery-title">Доставка цветов в Москве</h2>
+<div class="select-delvery">
+    <select name="price" id="prices-select">
+    <option value="">Цена ...</option>
+    <option value="less">По убыванию</option>
+    <option value="more">По возростанию</option>
+  </select>
+  <select name="flower" id="flowers-select">
+    <option value="">Цветы ...</option>
+    <option value="rose">Розы</option>
+    <option value="hriz">Хризантемы</option>
+    <option value="lilac">Лилии</option>
+    <option value="astra">Астры</option>
+    <option value="geor">Георгины</option>
+  </select>
+  <select name="for" id="forwho-select">
+    <option value="">Кому ...</option>
+    <option value="mom">Маме</option>
+    <option value="girl">Девушке</option>
+    <option value="wife">Жене</option>
+    <option value="dad">Папе</option>
+    <option value="husb">Мужу</option>
+  </select>
+  <select name="povod" id="povods-select">
+    <option value="">Повод ...</option>
+    <option value="marry">Свадьба</option>
+    <option value="birth">День рождения</option>
+    <option value="deth">Поминки</option>
+    <option value="anniv">Годовщина</option>
+    
+  </select>
+  <select name="style" id="styles-select">
+    <option value="">Стиль ...</option>
+    <option value="pastel">Пастельный</option>
+    <option value="bright">Яркий</option>
+    <option value="black">Черный</option>
+    <option value="beige">Бежевый</option>
+  </select>
+</div>
+  
+ </div>
+
+  </section>
+
+<section class="cards" id="boquet">
+ <div class="container">
+     <h2 class="card-subtitle">Сезонное предложение</h2>
+    <ul class="flower-cards">
+        <div class="flower-card">
+             <li>
+                <div class="img-parent">
+                    <img src="IMG/boquett1.svg" alt="минибукет 1600-6" class="img-child">
+                    <img src="IMG/new-pop.svg" alt="new" class="pop-up">
+                    <img src="IMG/heart.svg" alt="heart" class="img-heart">
+                </div>
+
+ <div class="card-info">
+<h2 class="flower-price">1 600 ₽</h2>
+<p class="flower-descr">Минибукет 1600-6</p>
+ </div>
+            </li>
+        </div>
+        <div class="flower-card">
+            <li>
+                <div class="img-parent">
+                    <img src="IMG/boquett2.svg" alt="Нобилис">
+                    <img src="IMG/heart.svg" alt="heart" class="img-heart">
+                </div>
+
+<div class="card-info">
+<h2 class="flower-price">99 ₽</h2>
+<p class="flower-descr">Нобилис</p>
+</div>
+           </li>
+       </div> <div class="flower-card">
+        <li>
+            <div class="img-parent">
+               <img src="IMG/boquett3.svg" alt="Роза Freedom 51 шт.">
+               <img src="IMG/sale-pop.svg" alt="new" class="pop-up">
+               <img src="IMG/heart.svg" alt="heart" class="img-heart"> 
+            </div>
+
+<div class="card-info">
+    <div class="flower-info-card">
+        <h2 class="flower-price">5 900 ₽</h2><h6 class="flower-pricelast">6 600 ₽</h6>
+    </div>
+
+<p class="flower-descr">Роза Freedom 51 шт.</p>
+</div>
+       </li>
+   </div> <div class="flower-card">
+    <li>
+    <div class="img-parent">
+        <img src="IMG/boquett4.svg" alt="Минибукет 1200-3">
+<img src="IMG/heart.svg" alt="heart" class="img-heart">
+    </div>
+
+<div class="card-info">
+<h2 class="flower-price">1 200 ₽</h2>
+<p class="flower-descr">Минибукет 1200-3</p>
+</div>
+   </li>
+</div> <div class="flower-card">
+    <li>
+        <div class="img-parent">
+            <img src="IMG/boquett5.svg" alt="Минибукет 1200-2">
+            <img src="IMG/new-pop.svg" alt="new" class="pop-up">
+<img src="IMG/heart.svg" alt="heart" class="img-heart">
+        </div>
+
+<div class="card-info">
+<h2 class="flower-price">1 250 ₽</h2>
+<p class="flower-descr">Минибукет 1200-2</p>
+</div>
+   </li>
+</div> <div class="flower-card">
+    <li>
+        <div class="img-parent">
+<img src="IMG/boquett6.svg" alt="Роза Telea 51 шт.">
+<img src="IMG/sale-pop.svg" alt="new" class="pop-up">
+<img src="IMG/heart.svg" alt="heart" class="img-heart">
+    </div>
+
+<div class="card-info">
+    <div class="flower-info-card">
+        <h2 class="flower-price">1 500 ₽</h2><h6 class="flower-pricelast">1 750 ₽</h6>
+    </div>
+    <p class="flower-descr">Роза Telea 51 шт.</p>
+</div>
+   </li>
+</div>
+        </ul>
+        <div class="button-card">
+            <button class="btn">Смотреть все</button>
+        </div>
+        
+    </div>
+
+<h2 class="card-subtitle">Хит продаж</h2>
+
+    <div class="container">
+        <ul class="flower-cards">
+            <div class="flower-card">
+                 <li>
+                    <div class="img-parent">
+                       <img src="IMG/boquett7.svg" alt="Минибукет 1600-6 (с водой)">
+    <img src="IMG/heart.svg" alt="heart" class="img-heart"> 
+                    </div>
+    
+     <div class="card-info">
+    <h2 class="flower-price">1 600 ₽</h2>
+    <p class="flower-descr">Минибукет 1600-6 (с водой)</p>
+     </div>
+                </li>
+            </div>
+            <div class="flower-card">
+                <li>
+                    <div class="img-parent">
+                      <img src="IMG/boquett1.svg" alt="минибукет 1600-6">
+    <img src="IMG/heart.svg" alt="heart" class="img-heart">  
+                    </div>
+    
+    <div class="card-info">
+    <h2 class="flower-price">1 600 ₽</h2>
+    <p class="flower-descr">Минибукет 1600-6</p>
+    </div>
+               </li>
+           </div> <div class="flower-card">
+            <li>
+                <div class="img-parent">
+                  <img src="IMG/boquett3.svg" alt="Роза Freedom 51 шт.">
+    <img src="IMG/heart.svg" alt="heart" class="img-heart">  
+                </div>
+    
+    <div class="card-info">
+    <h2 class="flower-price">5 900 ₽</h2>
+    <p class="flower-descr">Роза Freedom 51 шт.</p>
+    </div>
+           </li>
+       </div> <div class="flower-card">
+        <li>
+            <div class="img-parent">
+                <img src="IMG/boquett8.svg" alt="Минибукет 1400-3">
+    <img src="IMG/heart.svg" alt="heart" class="img-heart">
+            </div>
+    
+    <div class="card-info">
+    <h2 class="flower-price">1 400 ₽</h2>
+    <p class="flower-descr">Минибукет 1400-3</p>
+    </div>
+       </li>
+    </div> <div class="flower-card">
+        <li>
+            <div class="img-parent">
+                <img src="IMG/boquett9.svg" alt="«Бархатный сезон»">
+                <img src="IMG/new-pop.svg" alt="new" class="pop-up">
+    <img src="IMG/heart.svg" alt="heart" class="img-heart">
+            </div>
+    
+    <div class="card-info">
+    <h2 class="flower-price">1 300 ₽</h2>
+    <p class="flower-descr">«Бархатный сезон»</p>
+    </div>
+       </li>
+    </div> <div class="flower-card">
+        <li>
+            <div class="img-parent">
+              <img src="IMG/boquett2.svg" alt="Нобилис">
+              <img src="IMG/water-pop.svg" alt="new" class="pop-up">
+    <img src="IMG/heart.svg" alt="heart" class="img-heart">  
+            </div>
+    
+    <div class="card-info">
+    <h2 class="flower-price">99 ₽</h2>
+    <p class="flower-descr">Нобилис</p>
+    </div>
+       </li>
+    </div>
+            </ul>
+            <div class="button-card">
+                <button class="btn">Смотреть все</button>
+            </div>
+        </div>
+
+<h2 class="card-subtitle" id="sale">Со скидкой</h2>
+
+    <div class="container">
+        <ul class="flower-cards">
+            <div class="flower-card">
+                 <li>
+                    <div class="img-parent">
+                      <img src="IMG/boquett1.svg" alt="минибукет 1600-6">
+                      <img src="IMG/sale-pop.svg" alt="new" class="pop-up">
+    <img src="IMG/heart.svg" alt="heart" class="img-heart">   
+                    </div>
+   
+     <div class="card-info">
+        <div class="flower-info-card">
+            <h2 class="flower-price">1 600 ₽</h2><h6 class="flower-pricelast">1 600 ₽</h6>
+        </div>
+    <p class="flower-descr">Минибукет 1600-6</p>
+     </div>
+                </li>
+            </div>
+            <div class="flower-card">
+                <li>
+                    <div class="img-parent">
+                     <img src="IMG/boquett10.svg" alt="«Первый поцелуй»">
+                     <img src="IMG/sale-pop.svg" alt="new" class="pop-up">
+    <img src="IMG/heart.svg" alt="heart" class="img-heart">   
+                    </div>
+    
+    <div class="card-info">
+        <div class="flower-info-card">
+            <h2 class="flower-price">1 436 ₽</h2><h6 class="flower-pricelast">1 600 ₽</h6>
+        </div>
+    <p class="flower-descr">«Первый поцелуй»</p>
+    </div>
+               </li>
+           </div> <div class="flower-card">
+            <li>
+                <div class="img-parent">
+                 <img src="IMG/boquett11.svg" alt="«Эгоист»">
+                 <img src="IMG/sale-pop.svg" alt="new" class="pop-up">
+    <img src="IMG/heart.svg" alt="heart" class="img-heart">   
+                </div>
+    
+    <div class="card-info">
+        <div class="flower-info-card">
+            <h2 class="flower-price">1 500 ₽</h2><h6 class="flower-pricelast">1 600 ₽</h6>
+        </div>
+    <p class="flower-descr">«Эгоист»</p>
+    </div>
+           </li>
+       </div> <div class="flower-card">
+        <li>
+            <div class="img-parent">
+              <img src="IMG/boquett12.svg" alt="Минибукет 1600-4">
+              <img src="IMG/sale-pop.svg" alt="new" class="pop-up">
+    <img src="IMG/heart.svg" alt="heart" class="img-heart">  
+            </div>
+    
+    <div class="card-info">
+        <div class="flower-info-card">
+            <h2 class="flower-price">1 600 ₽</h2><h6 class="flower-pricelast">1 700 ₽</h6>
+        </div>
+    <p class="flower-descr">Минибукет 1600-4</p>
+    </div>
+       </li>
+    </div> <div class="flower-card">
+        <li>
+            <div class="img-parent">
+             <img src="IMG/boquett13.svg" alt="Минибукет 1400-2">
+             <img src="IMG/sale-pop.svg" alt="new" class="pop-up">
+    <img src="IMG/heart.svg" alt="heart" class="img-heart">   
+            </div>
+    
+    <div class="card-info">
+        <div class="flower-info-card">
+            <h2 class="flower-price">1 400 ₽</h2><h6 class="flower-pricelast">1 600 ₽</h6>
+        </div>
+    <p class="flower-descr">Минибукет 1400-2</p>
+    </div>
+       </li>
+    </div> <div class="flower-card">
+        <li>
+            <div class="img-parent">
+              <img src="IMG/boquett14.svg" alt="Минибукет 1600-1">
+              <img src="IMG/sale-pop.svg" alt="new" class="pop-up">
+    <img src="IMG/heart.svg" alt="heart" class="img-heart">  
+            </div>
+    
+    <div class="card-info">
+        <div class="flower-info-card">
+            <h2 class="flower-price">1 600 ₽</h2><h6 class="flower-pricelast">1 700 ₽</h6>
+        </div>
+    <p class="flower-descr">Минибукет 1600-1</p>
+    </div>
+       </li>
+    </div>
+            </ul>
+            <div class="button-card">
+                <button class="btn">Смотреть все</button>
+            </div>
+        </div>
+<h2 class="card-subtitle" id="rose">Розы</h2>
+
+    <div class="container">
+        <ul class="flower-cards">
+            <div class="flower-card">
+                 <li>
+                    <div class="img-parent">
+                      <img src="IMG/rose1.svg" alt="Роза Iguana 101 шт.">
+                      <img src="IMG/sale-pop.svg" alt="new" class="pop-up">
+    <img src="IMG/heart.svg" alt="heart" class="img-heart">  
+                    </div>
+    
+     <div class="card-info">
+        <div class="flower-info-card">
+            <h2 class="flower-price">9 900 ₽</h2><h6 class="flower-pricelast">11 200 ₽</h6>
+        </div>
+    <p class="flower-descr">Роза Iguana 101 шт.</p>
+     </div>
+                </li>
+            </div>
+            <div class="flower-card">
+                <li>
+                    <div class="img-parent">
+                      <img src="IMG/rose2.svg" alt="Роза Avalanche 101 шт.">
+                      <img src="IMG/sale-pop.svg" alt="new" class="pop-up">
+    <img src="IMG/heart.svg" alt="heart" class="img-heart">  
+                    </div>
+    
+    <div class="card-info">
+        <div class="flower-info-card">
+            <h2 class="flower-price">9 900 ₽</h2><h6 class="flower-pricelast">11 200 ₽</h6>
+        </div>
+    <p class="flower-descr">Роза Avalanche 101 шт.</p>
+    </div>
+               </li>
+           </div> <div class="flower-card">
+            <li>
+                <div class="img-parent">
+                <img src="IMG/rose3.svg" alt="Роза Circus 101 шт.">
+                <img src="IMG/sale-pop.svg" alt="new" class="pop-up">
+    <img src="IMG/heart.svg" alt="heart" class="img-heart">    
+                </div>
+    
+    <div class="card-info">
+        <div class="flower-info-card">
+            <h2 class="flower-price">9 900 ₽</h2><h6 class="flower-pricelast">11 200 ₽</h6>
+        </div>
+    <p class="flower-descr">Роза Circus 101 шт.</p>
+    </div>
+           </li>
+       </div> <div class="flower-card">
+        <li>
+            <div class="img-parent">
+              <img src="IMG/rose4.svg" alt="Роза Ilios 101 шт.">
+              <img src="IMG/sale-pop.svg" alt="new" class="pop-up">
+    <img src="IMG/heart.svg" alt="heart" class="img-heart">  
+            </div>
+    
+    <div class="card-info">
+        <div class="flower-info-card">
+            <h2 class="flower-price">9 900 ₽</h2><h6 class="flower-pricelast">11 200 ₽</h6>
+        </div>
+    <p class="flower-descr">Роза Ilios 101 шт.</p>
+    </div>
+       </li>
+    </div> <div class="flower-card">
+        <li>
+            <div class="img-parent">
+             <img src="IMG/rose5.svg" alt="Роза Carusel 101 шт.">
+             <img src="IMG/sale-pop.svg" alt="new" class="pop-up">
+    <img src="IMG/heart.svg" alt="heart" class="img-heart">   
+            </div>
+    
+    <div class="card-info">
+        <div class="flower-info-card">
+            <h2 class="flower-price">9 900 ₽</h2><h6 class="flower-pricelast">11 200 ₽</h6>
+        </div>
+    <p class="flower-descr">Роза Carusel 101 шт.</p>
+    </div>
+       </li>
+    </div> <div class="flower-card">
+        <li>
+            <div class="img-parent">
+             <img src="IMG/rose6.svg" alt="Роза Telea 101 шт.">
+             <img src="IMG/sale-pop.svg" alt="new" class="pop-up">
+    <img src="IMG/heart.svg" alt="heart" class="img-heart">   
+            </div>
+    
+    <div class="card-info">
+        <div class="flower-info-card">
+            <h2 class="flower-price">9 900 ₽</h2><h6 class="flower-pricelast">11 200 ₽</h6>
+        </div>
+    <p class="flower-descr">Роза Telea 101 шт.</p>
+    </div>
+       </li>
+    </div>
+            </ul>
+            <div class="button-card">
+                <button class="btn">Смотреть все</button>
+            </div>
+            <div>
+                <button class="catalogue-button">Смотреть весь каталог</button>
+            </div>
+        </div>
+</section>
+<section class="centr" id="centr">
+    <div class="container centr">
+        <div ><h2 class="centr-title">Цветочные центры</h2></div>
+  <div class="centers">
+<ul class="centr-list-first">
+ <li class="centr-item"><a href="#">м. Марьино</a></li>
+ <li class="centr-item"><a href="#">м. Белорусская</a></li>
+ <li class="centr-item"><a href="#">м. Щёлковская</a></li>
+ <li class="centr-item"><a href="#">м. Профсоюзная</a></li>
+ <li class="centr-item"><a href="#">м. Площадь Ильича</a></li>
+ <li class="centr-item"><a href="#">м. Каширская</a></li>
+ <li class="centr-item"><a href="#">м. Братиславская</a></li>
+</ul>
+<ul class="centr-list-second">
+    <li class="centr-item"><a href="#">м. Нахимовский проспект</a></li>
+    <li class="centr-item"><a href="#">м. Полянка</a></li>
+    <li class="centr-item"><a href="#">м. Кантемировская</a></li>
+    <li class="centr-item"><a href="#">м. Варшавская</a></li>
+    <li class="centr-item"><a href="#">м. Новогиреево</a></li>
+    <li class="centr-item"><a href="#">м. Дмитровская</a></li>
+    <li class="centr-item"><a href="#">м. Академическая</a></li>
+</ul>
+<ul class="centr-list-third">
+    <li class="centr-item"><a href="#">м. Текстильщики</a></li>
+    <li class="centr-item"><a href="#">м. Университет</a></li>
+    <li class="centr-item"><a href="#">м. Пролетарская</a></li>
+    <li class="centr-item"><a href="#">м. Красносельская</a></li>
+    <li class="centr-item"><a href="#">м. Черкизовская</a></li>
+
+</ul>
+    </div>
+  </div>
+</section>
+<section class="reviews" id="rewiew">
+    <div class="container ">
+        
+        <div class="review-main-info">
+            <h2 class="review-title">Отзывы о «Флорамаркт»</h2>
+            <aside>
+                <div >
+                    <p><a href="#" class="allrewie">Все новости <img src="IMG/angle-right.svg" alt="right"></a></p>
+                </div>
+            </aside>
+        </div>
+<div class="show-reviews">
+   <div class="first-review">
+    <img src="IMG/review_citate.svg" alt="citate" class="review-img-citate">
+            <div class="review">
+                <div class="review-info">
+                  <h6>Игорь</h6>
+<p>-</p>
+<p class="data-review">26.12.2020</p>
+<p>-</p>
+<p class="time-review">17:34</p>
+<p class="place-review">м. Текстильщики</p>  
+                </div>
+
+</div>
+<div class="img-stars">
+    <img src="IMG/star.svg" alt="star">
+    <img src="IMG/star.svg" alt="star">
+    <img src="IMG/star.svg" alt="star">
+    <img src="IMG/star.svg" alt="star">
+    <img src="IMG/star.svg" alt="star">
+</div>
+<div class="review-descr">
+    <p>Впечатление — море счастья у всех. Доставка в срок, цветы красивые. Отдельное спасибо оператору и курьеру за вежливость.</p>
+</div>
+        </div>
+<aside>
+    <div class="second-review">
+        <img src="IMG/review_citate.svg" alt="citate" class="review-img-citate">
+    <div class="review">
+        <div class="review-info">
+            <h6>Ильяс</h6>
+    <p>-</p>
+    <p class="data-review">31.01.2021</p>
+    <p>-</p>
+    <p class="time-review">15:20</p>
+    <p class="place-review">м. Щёлковская</p>
+        </div>
+    
+</div>
+    <div class="img-stars">
+        <img src="IMG/star.svg" alt="star">
+        <img src="IMG/star.svg" alt="star">
+        <img src="IMG/star.svg" alt="star">
+        <img src="IMG/star.svg" alt="star">
+        <img src="IMG/star.svg" alt="star">
+    </div>
+    <div class="review-descr">
+        <p>Очень приятно) Подарок понравился, качество хорошее. Пользоваться сервисом удобно, приятно. Порекомендую знакомым.</p>
+    </div>
+         
+</div>
+</aside>
+
+       </div>    
+             <img src="IMG/frame-switch.svg" alt="switch" class="img-switch"> 
+        </div>
+       
+ </div>
+ 
+</section>
+        <section class="clients-all">
+<h2 class="clients-title">Наши клиенты и партнеры</h2>
+        <div class="clients">
+            <ul class="clients-list">
+                <li class="client-item"><img src="IMG/client1.svg" alt="client"></li>
+                <li class="client-item"><img src="IMG/client2.svg" alt="client"></li>
+                <li class="client-item"><img src="IMG/client3.svg" alt="client"></li>
+                <li class="client-item"><img src="IMG/client4.svg" alt="client"></li>
+                <li class="client-item"><img src="IMG/client5.svg" alt="client"></li>
+                <li class="client-item"><img src="IMG/client6.svg" alt="client"></li>
+                <li class="client-item"><img src="IMG/client7.svg" alt="client"></li>
+                <li class="client-item"><img src="IMG/client8.svg" alt="client"></li>
+                <li class="client-item"><img src="IMG/client9.svg" alt="client"></li>
+                <li class="client-item"><img src="IMG/client10.svg" alt="client"></li>
+                <li class="client-item"><img src="IMG/client11.svg" alt="client"></li>
+                <li class="client-item"><img src="IMG/client12.svg" alt="client"></li>
+            </ul>
+        </div>
+        </section>
+        
+  
+<section class="read" id="about">
+    <div class="container read">
+        <div class="read-main-info">
+            <h2 class="read-title">Полезные статьи</h2>
+            <aside>
+                <div >
+                    <p><a class="allread" href="#">Все статьи <img src="IMG/angle-right.svg" alt="right"></a></p>
+                </div>
+            </aside>
+        </div>
+        <ul class="read-list">
+            <div class="read-card">
+                <li>
+   <img src="IMG/read1.png" alt="минибукет 1600-6">
+    <div class="read-info">
+        <p class="read-date">26.12.2020</p>
+   <h5 class="read-title-card">Заказ цветов и букетов онлайн</h5>
+   <p class="read-descr-card">Заказ букетов через Интернет становится все более популярным. Наши цветочные базы и онлайн-магазин предоставляют услуги по доставке букетов в Москве и МО. Это удобно, быстро, и обычно неожиданно для получателя. Наши цветочные композиции помогут поднять настроение, или выразить уважение и любовь.</p>
+    </div>
+               </li>
+           </div>
+           <div class="read-card">
+                <li>
+   <img src="IMG/read2.png" alt="минибукет 1600-6">
+    <div class="read-info">
+        <p class="read-date">28.12.2020</p>
+   <h5 class="read-title-card">Праздничные букеты на заказ с доставкой</h5>
+   <p class="read-descr-card">Лучшим подарком и его дополнением являются цветы. Они считаются незаменимым атрибутом любого праздника. На нашем официальном сайте можно выбрать понравившийся вариант букета, и заказать его. Доставка букетов осуществляется в любое время в назначенное место.</p>
+    </div>
+               </li>
+           </div>
+           <div class="read-card">
+                <li>
+   <img src="IMG/read3.png" alt="минибукет 1600-6">
+    <div class="read-info">
+        <p class="read-date">30.12.2020</p>
+   <h5 class="read-title-card">Роскошные розы в букетах с доставкой</h5>
+   <p class="read-descr-card">Эффектный букет роз — всегда приятный подарок. Юные девушки и взрослые женщины обрадуются такому элегантному знаку внимания. Чтобы признаться в чувствах или выразить благодарность, довольно заказать розы с доставкой.</p>
+    </div>
+               </li>
+           </div>
+        </ul>
+    </div>
+</section>
+<section class="news">
+    <div class="container news">
+        <div class="news-main-info">
+            <h2 class="news-title">Новости</h2>
+            <aside>
+                <div >
+                    <p><a href="#" class="allnews">Все новости <img src="IMG/angle-right.svg" alt="right"></a></p>
+                </div>
+            </aside>
+        </div>
+    <ul class="news-list">
+ <div class="news-card ">
+                <li class="news-item">
+   
+        <div class="news-info">
+            <h5 class="news-title-card">Вакансия флориста</h5>
+   <aside>
+    <div class="news-date">
+        <p>26.12.2020</p>
+    </div>
+</aside>
+        </div>
+   
+   <p class="news-descr-card"><b>Требования:</b><br>
+    Опыт работы с горшечными растениями; Опыт работы в розничных продажах желателен; 
+    Хороший вкус и творческий потенциал, приветствуется;</p>
+
+               </li>
+ </div>
+ <div class="news-card">
+    <li class="news-item isecond">
+
+<div class="news-info">
+    <h5 class="news-title-card">Цветочная компания ФлораМаркт делает уникальное предложение для корпоративных клиентов</h5>
+<aside>
+<div class="news-date">
+<p>27.12.2020</p>
+</div>
+</aside>
+</div>
+
+<p class="news-descr-card">Сделайте Ваш бизнес более привлекательным с помощью цветов!
+Ваша репутация может опережать Вас, вы можете быть на вершине славы, но вот как сохранить ее? Может, стоит украсить Ваше рабочее место свежесрезанными цветами?</p>
+
+   </li>
+</div>
+</ul>
+            
+  </div>
+</section>
+<section class="subscribtion" id="subscribe">
+    <div class="container subscribtion">
+        <div class="subscribe-info">
+            
+            <h2 class="subscribe-title">Подписаться
+                на скидки и акции</h2>
+          
+                    
+                    <p class="subscribe-text">Ваш Email</p>
+                 <form method="post" action="https://jsonplaceholder.org/users/1" class="form">
+                    <label for="post">
+                        <input type="email" class="subscribe-form" id="Email" placeholder="Мы присылаем письма не чаще 1 раза в месяц" required/>
+                    </label>
+                    <button type="submit" class="btn-subscribe">
+            Подписаться
+        </button> 
+                 </form>
+                
+               
+                
+        </div>
+       
+    </div>
+</section>
+<section class="about-us">
+    <div class="about-us-info">
+            <h2 class="about-us-title">«Флорамаркт» — цветочная база и сеть магазинов в Москве</h2>
+        <p class="about-us-descr">Готовитесь к празднику? Мечтаете сделать приятный сюрприз близкому человеку? Любите цветы и с удовольствием дарите их хорошим людям? Интернет-магазин цветов «Флорамаркт» станет для вас настоящим помощником.</p>
+</div>
+    <div class="container about-us">
+        
+        <div class="about-us-info-more">
+            <div class="about-first">
+                <img class="aboutimage1" src="IMG/about1.png" alt="о нас">
+            <aside class="about-us-aside1">
+                <h3 class="about-us-title-more1">
+                    У нас богатый выбор цветочных композиций
+                </h3>
+                
+                    <p class="about-us-descr-more1">В каталогах представлен широкий ассортимент оригинальных букетов, подарков и сувениров. Свадебные композиции, цветы для зрелых женщин и молодых девушек, роскошные корзины и скромные букеты — выбор, достойный лучших магазинов, реализующих произведения флористического искусства.</p>
+            </aside>
+            
+            </div>
+             <div class="about-second">
+                <img class="aboutimage2" src="IMG/about2.png" alt="о нас">
+               <aside class="about-us-aside2">
+                <h3 class="about-us-title-more2">
+                    Цветы с доставкой в Москве
+                </h3>
+                
+                   <p class="about-us-descr-more2">«Floramarkt» — сеть из 17 цветочных магазинов, расположенных в разных районах Москвы, поэтому доставка букетов производится курьерами в минимальные сроки.
+                Поводов, чтобы преподнести близкому человеку цветы, много — свадьба, День рождения, юбилей, профессиональный праздник, 8 Марта, но не обязательно ждать значимого события, ведь неожиданные сюрпризы особенно приятны.
+                Знакомьтесь с ассортиментом товаров и выбирайте лучшее!</p> 
+            </aside>
+            
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+
+<footer>
+<setion class="podval" id="contacts">
+    <div class="container podval">
+        <div class="main-footer">
+            <ul>
+                <li class="footer-item"> <img src="IMG/logo-footer.svg" alt="logo-footer" class="logo-footer"></li>
+                <li class="logo-subtitle">&copy; ФлораМаркт, 2012-2020</li><div class="phone-phone">
+                    <div class="phone-flex">
+                        <aside>
+               <img  src="IMG/phone.svg" alt="phone"> 
+            </aside>
+             <ul class="phone-ul">
+              <li class="phone-number">+7 965 151 18 39</li>
+              <li class="phone-number">+7 916 122 18 98</li>
+             </ul>
+                    </div>
+        </div>
+            
+             <div class="subphone">
+              <ul class="subphone-ul">
+                <li class="subphone-item"><a href="#">Адреса цветочных центров</a></li>
+                <li class="subphone-item"><a href="#">Политика конфиденциальности</a></li>
+              </ul>
+            </ul>
+           
+          
+        <aside class="body-footer">
+            <ul>
+                <li class="footer-item"><a href="#">Каталог</a></li>
+                <li class="footer-item"><a href="#">О компании</a></li>
+                <li class="footer-item"><a href="#">Способы оплаты</a></li>
+                <li class="footer-item"><a href="#">Доставка</a></li>
+                <li class="footer-item"><a href="#">Отзывы</a></li>
+                <li class="footer-item"><a href="#">Дисконтные карты</a></li>
+                <li class="footer-item"><a href="#">Видео</a></li>
+                <li class="footer-item"><a href="#">Контакты</a></li>
+            </ul>
+            <ul>
+                <li class="footer-item"><a href="#">Букеты</a></li>
+                <li class="footer-item"><a href="#">Розы</a></li>
+                <li class="footer-item"><a href="#">Цветы</a></li>
+                <li class="footer-item"><a href="#">Горшечные растения</a></li>
+                <li class="footer-item"><a href="#">Букет невесты</a></li>
+                <li class="footer-item"><a href="#">Композиции на стол</a></li>
+            </ul>
+            <ul>
+                <li class="footer-item"><a href="#">Украшение залов</a></li>
+                <li class="footer-item"><a href="#">Игрушки</a></li>
+                <li class="footer-item"><a href="#">Торты</a></li>
+                <li class="footer-item"><a href="#">Открытки</a></li>
+                <li class="footer-item"><a href="#">Авторские работы</a></li>
+            </ul>
+        </aside>
+    </div>
+   </div>        
+        
+    </div>
+</setion>
+</footer>
+</body>
+<script src="js/script.js"></script>
+</html>
