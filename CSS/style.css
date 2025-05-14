@@ -1017,7 +1017,7 @@ footer{
        overflow-y:auto;
         padding: 20px 30px;
        background-color: white;
-        margin-left: -20px;
+        margin-left: -10px;
     }
     .left{
         display: none;
@@ -1030,8 +1030,8 @@ display: none;
     }
     .like-cart .cart{
        position: relative;
-       margin-top: -50px;
-        margin-left: 250px;
+       margin-top: -31px;
+        margin-left: 60%;
             }
     
             .nav-bar {
@@ -1056,8 +1056,8 @@ display: none;
               .toggle-menu {
                 background-color: #FFFFFF;
                 position: fixed;
-                top: 64px;
-                left: 33%;
+                top: 50px;
+                left: 43%;
                 width: 40px;
                 height: 40px;
                 display: flex;
@@ -1126,7 +1126,7 @@ display: none;
     }
     .info{
         background-size: cover;
-   width: 454px;
+   width: 100%;
    height: 320px;
     }
     .block{
@@ -1144,13 +1144,13 @@ display: none;
         margin-top: 80px;
     }
     .delivery-title{
-        margin-left: -2%;
+        margin-left: 7%;
         width: 80%;
     }
     .select-delvery{
         display: flex;
-        margin-left: -23%;
-        width: 70%;
+        margin-left: -5%;
+        width: 80%;
         flex-direction: column;
 
     }
@@ -1160,23 +1160,23 @@ display: none;
     }
     .card-subtitle{
         width: 35%;
-      margin-left: 300px;
+      margin-left: 32%;
     }
     .flower-cards{
         width: 155%;
      
-        margin-left: -350px;
+        margin-left: -30%;
         display: flex;
         flex-direction: column;
     }
     .button-card{
-        margin-left: -160px;
+        margin-left: -4%;
     }
     .catalogue-button{
-        margin-left: -160px;
+        margin-left: -4%;
     }
     .centr-title{
-        width: 70%;
+        width: 100%;
     }
     .centers{
         display: flex;
@@ -1192,7 +1192,8 @@ width: 100%;
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 254px;
+        height: 100%;
+        margin-left: 20%;
     }
     .review-main-info{
         display: flex;
@@ -1247,13 +1248,13 @@ color: #407014;
     }
 .clients{ 
     width: 70%;
-    margin-left: 20px;
+    margin-left: 10%;
     margin-bottom: 30px;
 }
 .clients-title{ 
    
     margin-top: 30px;
-    width: 75%;
+    width: 90%;
 font-size: 22px;
 margin-bottom: 15px;
 }
@@ -1269,7 +1270,7 @@ margin-bottom: 15px;
  justify-content: center;
 }
 .read-main-info{
-margin-left: -180px;
+margin-right: 20%;
     display: flex;
         flex-direction: column;
         width: 50%;
@@ -1289,7 +1290,8 @@ margin-left: -180px;
  margin-top: 20px;
 display: flex;
         flex-direction: column;
-       margin-left: -60px;
+        margin-left: 3%;
+       width: 100%;
     }
     .read-card{
         width: 77%;
@@ -1316,7 +1318,7 @@ display: flex;
     margin-left: 154px;
 }
 .news-list{
-    width: 100%;
+    width: 70%;
     margin-left: 300px;
    
   
@@ -1331,12 +1333,12 @@ display: flex;
 
 .subscribe-info{
     
-    width: 290px;
+    width: 70%;
  height: 217px;
  justify-items: center;
     flex-direction: column;
 padding: 30px;
-  margin-left: 60px;
+  margin-left: 20%;
 
 }
 .subscribe-text{
@@ -1383,7 +1385,7 @@ margin-bottom: 0;
 }
 .about-us-info{
     display: block;
-margin-left: -140px;
+margin-left: -6%;
     width: 35%;
     justify-self: center;
 }
@@ -1396,17 +1398,17 @@ margin-left: -140px;
 display: block;
     flex-direction: column;
     width: 50%;
-    margin-left: -190px;
+    margin-left: -18%;
     justify-content: center;
 }
 .about-us-info-more p{
       font-size: 15px;
       width: 100%;
-      margin-left: 3%;
+      margin-left: 0%;
 }
 .about-us-info-more img{
   width: 100%;
-  margin-left: 3%;
+  margin-left: 6%;
 margin-bottom: -40px;
 padding: 0;
 
@@ -1604,7 +1606,7 @@ display: none;
     }
     .info{
         background-size: cover;
-   width: 454px;
+   width: 100%;
    height: 320px;
     }
     .block{
@@ -1637,15 +1639,15 @@ display: none;
         border-right: #444444;
     }
     .card-subtitle{
-        width: 44%;
+        width: 35%;
     }
     .flower-cards{
-    width: 165%;
+    width: 160%;
         display: flex;
         flex-direction: column;
     }
     .button-card{
-        width: 130%;
+        width: 110%;
     }
     .catalogue-button{
       margin-left: 1%;
@@ -1669,7 +1671,7 @@ width: 200%;
     .reviews{
         display: flex;
         flex-direction: column;
-        width: 290px;
+        width: 100%;
         height: 254px;
     }
     .review-main-info{
@@ -1726,7 +1728,7 @@ color: #407014;
         margin-left: 110px;
     }
 .clients{
-    width: 90%;
+    width: 85%;
     margin-bottom: 30px;
 }
 .clients-title{
@@ -1744,6 +1746,7 @@ margin-bottom: 15px;
 }
 
 .read{
+    width: 90%;
  justify-content: center;
 }
 .read-main-info{
@@ -1755,7 +1758,7 @@ margin-bottom: 15px;
         
 }
 .read-title{
-    width: 150%;
+    width: 90%;
     
     font-size: 22px;
     text-align: center;
@@ -1763,7 +1766,7 @@ margin-bottom: 15px;
 .allread{
     line-height: 1.5;
     float: inline-end;
-    margin-right: -5%;
+    margin-right: 30%;
 }
     .read-list{
  margin-top: 20px;
@@ -1793,7 +1796,7 @@ display: flex;
     margin-left: 154px;
 }
 .news-list{
-    width: 70%;
+    width: 53%;
     margin-left: 35.5%;
    
   
@@ -1802,7 +1805,7 @@ display: flex;
 .news-item{
    
    
-    width: 55%;
+    width: 50%;
     
 }
 .subscribe-info{
@@ -1859,20 +1862,20 @@ margin-bottom: 0;
 }
 .about-us-info{
     display: block;
-margin-right: -12%;
+margin-left: -2%;
     width: 30%;
     justify-self: center;
 }
 .about-us{   
-    
+    margin-left: -3%;
     height: fit-content;
   display:grid;
 }
 .about-us-info-more{
 display: block;
     flex-direction: column;
-    width: 50%;
-    margin-right: -10%;
+    width: 20%;
+   
     justify-content: center;
 }
 .about-us-info-more p{
